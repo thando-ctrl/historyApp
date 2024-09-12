@@ -12,6 +12,7 @@ Demostration
 
 Technologies
 The use of Kotlin programming languge in Android studio was all it took to build this application
+The use of Github emulator for additional testing
 
 Installation
 This application funs only on Android devices
