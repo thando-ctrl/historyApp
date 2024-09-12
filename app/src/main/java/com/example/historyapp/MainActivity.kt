@@ -25,33 +25,36 @@ class MainActivity : AppCompatActivity() {
         toGenerate = findViewById(R.id.button)
         toClear = findViewById(R.id.button2)
 
+
         // Creating a variable that will recieve user's input
-
-
         toGenerate.setOnClickListener {
 
             val getNum = editText.text.toString()
             if (getNum.isNotEmpty()) {
                 val inputValue = getNum.toInt()
 
-                val res = figures(inputValue)
 
-                textView.text = "You are $res"
+                // The variable output calls the method/funtion
+                val output = figures(inputValue)
+
+                textView.text = "You are $output"
             }
+
+            // This will display in case the user doesnot input any number
             if (getNum.isEmpty()){
                 textView.text = "Input age first"
             }
 
 
         }
+        // assigning the clear button
         toClear.setOnClickListener {
             editText.text.clear()
             textView.text = ""
         }
     }
 
-    // Creating a Method which contains the output
-
+    // Creating a Method
     private  fun  figures(history: Int): String {
 
         return when(history) {
