@@ -30,3 +30,6 @@ Usage
 5. The app clears all text and awaits the next input
 
 Through testing and debugging, the development of this app successfully delivered a tool that provides education to the user.
+
+References 
+Ephraim Nobela. 2024 IMAD Class recording by Mr. Ephraim Nobela - IMAD5112 Lecture. Online Video. Available at: https://myrc.iielearn.ac.za/ultra/courses/_224371_1/cl/outline [Accessed 11September 2024]
