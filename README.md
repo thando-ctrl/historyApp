@@ -4,7 +4,7 @@ The main objective of this project was to develop a functional, user-friendly ap
 The app’s design was based on subtle colors and a background theme which immediately makes you aware that you are about to dive deep into an educational space. A secondary goal was to build the app in a way that allowed scalability for current and future heroes to be included in the database as time goes, and a easy to use programming language like Kotlin for maintenance and ensuring the is robust and flexible.
 
 Demostration
-(Video)
+https://youtu.be/UlG1aqPPxtY
 
 Technologies
 The use of Kotlin programming languge in Android studio was all it took to build this application
@@ -16,6 +16,8 @@ The History app needed to include a EditText slot or place holder to allow the u
 •	Generate Button: executes the code which provide the desired result
 •	TextView widget: Allows for the brief information to be displayed and view by the user
 •	Reset Button : Clears the current information and allow the user to input a new value
+![image of app](https://github.com/user-attachments/assets/78d8f1d1-afb9-4c5c-8886-19b8059f164f)
+
 
 Installation
 This application funs only on Android devices
